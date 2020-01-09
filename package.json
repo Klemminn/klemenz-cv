@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Klemminn/klemenz-cv/issues"
   },
-  "homepage": "https://github.com/Klemminn/klemenz-cv#readme",
+  "homepage": "https://github.com/Klemminn/klemenz-cv",
   "dependencies": {
     "chalk": "^3.0.0",
     "inquirer": "^7.0.3"
