@@ -31,13 +31,12 @@ const main = () => {
 }
 
 const promptBackOrExit = async (selectedState, previousState) => {
-  const { choice } = await inquirer.prompt({
-    type: 'list',
-    name: 'choice',
+  const { state } = await inquirer.prompt({
+    ...promptTemplate,
     message: 'Go Back or Exit?',
     choices: ['Back', 'Exit']
   })
-  if (choice === 'Back') {
+  if (state === 'Back') {
     stateHandler(selectedState, previousState)
   }
 }
