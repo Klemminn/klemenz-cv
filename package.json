@@ -1,0 +1,35 @@
+{
+  "bin": {
+    "klemenz-cv": "./dist/index.js"
+  },
+  "name": "klemenz-cv",
+  "version": "1.0.0",
+  "description": "CLI for the CV of Klemenz Hrafn Kristjánsson, software developer.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir dist --presets minify",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klemminn/klemenz-cv.git"
+  },
+  "author": "Klemenz Hrafn Kristjánsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Klemminn/klemenz-cv/issues"
+  },
+  "homepage": "https://github.com/Klemminn/klemenz-cv#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "babel-preset-minify": "^0.5.1",
+    "cross-env": "^6.0.3",
+    "rimraf": "^3.0.0"
+  }
+}

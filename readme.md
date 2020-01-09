@@ -1,0 +1,1 @@
+Simple CLI CV for Klemenz Hrafn Kristjánsson, software developer.

@@ -1,0 +1,90 @@
+{
+  "Education": [
+    "Following is a list of my academic achievements:",
+    "2016 - 2018: MSc Strategic Management - University of Iceland",
+    "2013 - 2015: MSc Industrial Engineering - University of Iceland",
+    "2013 - 2015: BSc Computer Science - University of Iceland",
+    "2010 - 2013: BSc Industrial Engineering - University of Iceland",
+    "2004 - 2007: Icelandic Matriculation Examination, Nature Science Department - Hamrahlíð College"
+  ],
+  "Work experience": {
+    "curron": {
+      "name": "2019 - 2020: Software Developer @ Curron",
+      "text": [
+        "Curron - My current place of employment.",
+        "Developing an app and web application for the homecare industry.",
+        "The app is written in Ionic/React, the web in React."
+      ]
+    },
+    "hausmart": {
+      "name": "2018 - 2019: Senior Developer @ HausMart",
+      "text": [
+        "HausMart - An easy payment app startup",
+        "Worked in a wonderful team of good developers, making an easy payment app.",
+        "The app was written in React Native, using Expo for quick deployment and multi-platform codebase.",
+        "Unfortunately, the app didn't take flight, so I left in 2019."
+      ]
+    },
+    "advania": {
+      "name": "2014 - 2018: Software Specialist @ Advania",
+      "text": [
+        "Advania - Biggest IT company in Iceland.",
+        "Worked mainly on the school application Inna, which is used by all colleges in Iceland.",
+        "Inna hosts exams, projects, attendance and all other required functions of schools.",
+        "The stack was Oracle PL/SQL database, Java for the RESTful API and Angular 1.x for the frontend."
+      ]
+    },
+    "ui": {
+      "name": "2014 - 2014: Support Teacher @ University of Iceland",
+      "text": [
+        "University of Iceland - Support Teacher position",
+        "Taught exercise lessons for Operational Management.",
+        "Included supply-chain management and other operational functions."
+      ]
+    },
+    "tolvutaekni": {
+      "name": "2007 - 2013: Operational Manager @ Tölvutækni",
+      "text": [
+        "Tölvutækni - Computer shop",
+        "Started straight out of college, worked as an operational manager.",
+        "Worked on all functions of the business, communications with customers and suppliers,",
+        "sales, repairs etc."
+      ]
+    }
+  },
+  "Personal projects": {
+    "laptop": {
+      "name": "Laptop.is",
+      "text": [
+        "Laptop.is - Search page for laptops in Iceland",
+        "Allows consumers to find a laptop that fits their specification requirements.",
+        "Python scraper which scrapes the online shops in Iceland.",
+        "Angular 1.x frontend for filtering computers."
+      ]
+    },
+    "ferdaleit": {
+      "name": "Ferðaleit.is",
+      "text": [
+        "Ferðaleit.is - Search page for sunny vacations",
+        "Allows consumers to find sunny vacations sold by Icelandic travel agencies.",
+        "Users can filter by travel period, star rating, TripAdvisor rating, number of nights etc.",
+        "Python scraper which scrapes the websites of the travel agencies.",
+        "Angular 1.x frontend for filtering trips."
+      ]
+    },
+    "nafnaleit": {
+      "name": "Nafnaleit.com",
+      "text": [
+        "Nafnaleit.com - Find a name for your baby",
+        "Allows couples to get a list of Icelandic names, where each selects those she/he likes.",
+        "Users can order by how common or uncommon the names are, long and short names etc.",
+        "When both users have selected names, they see which names they chose and who they have in common.",
+        "Python/Django backend, connected to MailGun for notifications, with a Angular 8 front-end."
+      ]
+    }
+  },
+  "Contact": [
+    "You can reach me via e-mail:",
+    "klemenz88@gmail.com"
+  ]
+}
