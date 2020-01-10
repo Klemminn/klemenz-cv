@@ -3,7 +3,7 @@
     "klemenz-cv": "./dist/index.js"
   },
   "name": "klemenz-cv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI for the CV of Klemenz Hrafn Kristjánsson, software developer.",
   "main": "./dist/index.js",
   "scripts": {
